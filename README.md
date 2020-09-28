@@ -1,13 +1,13 @@
 ## Overview
-  MultiClass is a JavaScript library to allow developers to extends more than one class in node js.
+  MultiClassNode is a JavaScript library to allow developers to extends more than one class in node js.
 
 ## Install
-  To install MultiClass library just execute the following command line in prompt inside your node project folder
+  To install MultiClassNode library just execute the following command line in prompt inside your node project folder
 
-  $ npm install multiclass
+  $ npm install multiclass-node
 
 ## Usage
-const MultiClass = require('multiclass);
+const MultiClassNode = require('multiclass-node);
 
 class One {
     constructor() {
@@ -42,7 +42,7 @@ class Three {
     baz() {console.log('baz')}
 }
 
-class FooBar extends new MultiClass(One, Two, Three) {
+class FooBar extends new MultiClassNode(One, Two, Three) {
     constructor() {
         super(); // needed, although does nothing.
     }    
