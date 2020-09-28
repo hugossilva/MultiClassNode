@@ -8,7 +8,7 @@
 
 ## Usage
 ```javascript
-const MultiClass = require('multiclass);
+const MultiClassNode = require('multiclass-node);
 
 class One {
     constructor() {
@@ -43,7 +43,7 @@ class Three {
     baz() {console.log('baz')}
 }
 
-class FooBar extends new MultiClass(One, Two, Three) {
+class FooBar extends new MultiClassNode(One, Two, Three) {
     constructor() {
         super(); // needed, although does nothing.
     }    
