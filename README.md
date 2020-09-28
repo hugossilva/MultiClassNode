@@ -8,7 +8,7 @@
 
 ## Usage
 ```javascript
-const MultiClassNode = require('multiclass-node);
+const MultiClassNode = require('multiclass-node');
 
 class One {
     constructor() {
